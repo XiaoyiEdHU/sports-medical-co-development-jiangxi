@@ -3,14 +3,10 @@
 ## Repository Structure
 
 ```
-├── 01_Data_Preparation.ipynb          # Panel construction, lag/lead variables, coordinate extraction
-├── 02_Spatial_Autocorrelation.ipynb    # Global Moran's I analysis (Section 4.2)
-├── 03_Correlation_Analysis.ipynb      # Pearson correlation, heatmaps (Section 4.2)
-├── 04_CF_Estimation.ipynb             # Causal Forest: year-by-year ATE, CATE, multi-lag, lead placebo (Section 4.3)
-├── 05_DML_Estimation.ipynb            # Double ML: year-by-year ATE, lag-1, multi-lag, lead placebo (Section 4.3)
-├── 06_Variable_Importance.ipynb       # XGBoost + SHAP feature importance (Section 4.4)
-├── 07_Robustness_Checks.ipynb         # Permutation placebo, alternative specs, Conley SE (Section 4.6)
-├── 08_Figures.ipynb                   # Main result figures: IRF, lead placebo, alt specs, Conley SE
+├── 01_Spatial_Autocorrelation.ipynb   # Global Moran's I analysis
+├── 02_Correlation_Analysis.ipynb      # Pearson correlation and heatmaps
+├── 03_Variable_Importance.ipynb       # XGBoost + SHAP feature importance
+├── 04_Main_Analysis.ipynb             # CF/DML estimation, falsification tests, robustness checks, figures
 ├── README.md
 ```
 
